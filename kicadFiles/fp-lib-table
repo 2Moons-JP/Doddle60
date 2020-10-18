@@ -11,4 +11,5 @@
   (lib (name acheron_MX_SolderMask)(type KiCad)(uri ${KIPRJMOD}/AcheronLibrary/footprints/acheron_MX_SolderMask.pretty)(options "")(descr ""))
   (lib (name acheron_Graphics)(type KiCad)(uri ${KIPRJMOD}/AcheronLibrary/footprints/acheron_Graphics.pretty)(options "")(descr ""))
   (lib (name doddle60Graphics)(type KiCad)(uri /home/alvaro/Desktop/AcheronProject/Doddle60/graphics/doddle60Graphics.pretty)(options "")(descr ""))
+  (lib (name MX_Only)(type KiCad)(uri "C:/Users/Zeus/Documents/GitHub/Trifecta Swift/Trifecta/Hardware/Rev0.6rgb/MX_Only.pretty")(options "")(descr ""))
 )
