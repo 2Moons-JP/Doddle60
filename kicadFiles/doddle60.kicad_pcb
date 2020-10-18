@@ -15241,7 +15241,7 @@
   )
 
   (module acheron_Logos:acheronLong (layer F.Cu) (tedit 5D85A18F) (tstamp 5D8637BA)
-    (at 209.254375 117.134125)
+    (at 353.61337 244.365265)
     (path /5D430F2E)
     (fp_text reference G3 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
