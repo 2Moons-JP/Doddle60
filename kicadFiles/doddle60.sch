@@ -3855,17 +3855,6 @@ F 3 "~" H 6350 6100 50  0001 C CNN
 $EndComp
 Connection ~ 6350 6250
 $Comp
-L acheronSymbols:MXSwitch SW66
-U 1 1 604F6338
-P 6350 8375
-F 0 "SW66" H 6350 8425 50  0000 C CNN
-F 1 "SPACE_275" H 6350 8300 40  0000 C CNN
-F 2 "acheron_MX_SolderMask:MX275R" H 6350 8375 50  0001 C CNN
-F 3 "" H 6350 8375 50  0001 C CNN
-	1    6350 8375
-	1    0    0    -1  
-$EndComp
-$Comp
 L doddle60-rescue:D-Device D66
 U 1 1 6092E0D3
 P 10350 6100
@@ -3888,8 +3877,6 @@ F 3 "" H 10350 6600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9750 8100 9750 8975
-Wire Wire Line
 	9350 8975 9350 9075
 Wire Wire Line
 	9350 8975 9750 8975
@@ -3902,19 +3889,6 @@ F 1 "SPACE_450" H 9350 9350 40  0000 C CNN
 F 2 "acheron_MX_SolderMask:MX100" H 9350 9425 50  0001 C CNN
 F 3 "" H 9350 9425 50  0001 C CNN
 	1    9350 9425
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9350 8100 9750 8100
-$Comp
-L acheronSymbols:MXSwitch SW69
-U 1 1 6018A222
-P 9350 8450
-F 0 "SW69" H 9350 8500 50  0000 C CNN
-F 1 "SPACE_125" H 9350 8375 40  0000 C CNN
-F 2 "acheron_MX_SolderMask:MX125" H 9350 8450 50  0001 C CNN
-F 3 "" H 9350 8450 50  0001 C CNN
-	1    9350 8450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -3970,12 +3944,12 @@ Wire Wire Line
 $Comp
 L acheronSymbols:MXSwitch SW86
 U 1 1 60A7E6F2
-P 11350 6600
-F 0 "SW86" H 11350 6650 50  0000 C CNN
-F 1 "KANA_100" H 11350 6525 40  0000 C CNN
-F 2 "acheron_MX_SolderMask:MX100" H 11350 6600 50  0001 C CNN
-F 3 "" H 11350 6600 50  0001 C CNN
-	1    11350 6600
+P 10350 9425
+F 0 "SW86" H 10350 9475 50  0000 C CNN
+F 1 "KANA_100" H 10350 9350 40  0000 C CNN
+F 2 "acheron_MX_SolderMask:MX100" H 10350 9425 50  0001 C CNN
+F 3 "" H 10350 9425 50  0001 C CNN
+	1    10350 9425
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -4055,17 +4029,6 @@ Wire Wire Line
 	6350 7200 6750 7200
 Wire Wire Line
 	6750 7200 6750 6250
-$Comp
-L acheronSymbols:MXSwitch SW71
-U 1 1 60A7E6E7
-P 10350 8450
-F 0 "SW71" H 10350 8500 50  0000 C CNN
-F 1 "SPACE_225" H 10350 8375 40  0000 C CNN
-F 2 "acheron_MX_SolderMask:MX225R" H 10350 8450 50  0001 C CNN
-F 3 "" H 10350 8450 50  0001 C CNN
-	1    10350 8450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	10750 6250 10350 6250
 Connection ~ 10350 6250
@@ -4073,12 +4036,12 @@ Connection ~ 5350 6250
 $Comp
 L acheronSymbols:MXSwitch SW80
 U 1 1 60A7E6C5
-P 10350 9425
-F 0 "SW80" H 10350 9475 50  0000 C CNN
-F 1 "HENKAN_125" H 10350 9350 40  0000 C CNN
-F 2 "acheron_MX_SolderMask:MX125" H 10350 9425 50  0001 C CNN
-F 3 "" H 10350 9425 50  0001 C CNN
-	1    10350 9425
+P 11350 6600
+F 0 "SW80" H 11350 6650 50  0000 C CNN
+F 1 "HENKAN_125" H 11350 6525 40  0000 C CNN
+F 2 "acheron_MX_SolderMask:MX125" H 11350 6600 50  0001 C CNN
+F 3 "" H 11350 6600 50  0001 C CNN
+	1    11350 6600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -4094,19 +4057,6 @@ F 1 "RGUI_100" H 15350 9250 40  0000 C CNN
 F 2 "acheron_MX_SolderMask:MX100" H 15350 9325 50  0001 C CNN
 F 3 "" H 15350 9325 50  0001 C CNN
 	1    15350 9325
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	16000 9325 15850 9325
-$Comp
-L acheronSymbols:MXSwitch SW85
-U 1 1 61D8D563
-P 16350 9325
-F 0 "SW85" H 16350 9375 50  0000 C CNN
-F 1 "RCTRL_125" H 16350 9250 40  0000 C CNN
-F 2 "acheron_MX_SolderMask:MX125" H 16350 9325 50  0001 C CNN
-F 3 "" H 16350 9325 50  0001 C CNN
-	1    16350 9325
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -4141,7 +4091,6 @@ Wire Wire Line
 	6700 8850 6700 8025
 Wire Wire Line
 	6700 8025 6350 8025
-Connection ~ 6350 8025
 Wire Wire Line
 	3850 6600 3850 9425
 Wire Wire Line
@@ -4177,20 +4126,9 @@ Wire Wire Line
 Wire Wire Line
 	5850 6600 6000 6600
 Connection ~ 5850 5625
-Wire Wire Line
-	5850 6600 5850 8375
-Wire Wire Line
-	5850 8375 6000 8375
 Connection ~ 5850 6600
 Wire Wire Line
-	5850 8375 5850 9425
-Wire Wire Line
 	5850 9425 6000 9425
-Connection ~ 5850 8375
-Wire Wire Line
-	8850 8450 9000 8450
-Wire Wire Line
-	8850 8450 8850 9425
 Wire Wire Line
 	8850 9425 9000 9425
 Wire Wire Line
@@ -4198,10 +4136,6 @@ Wire Wire Line
 Wire Wire Line
 	9850 6600 10000 6600
 Connection ~ 9850 5625
-Wire Wire Line
-	9850 8450 10000 8450
-Wire Wire Line
-	9850 8450 9850 9425
 Wire Wire Line
 	9850 9425 10000 9425
 Wire Wire Line
@@ -4236,27 +4170,16 @@ F 3 "~" H 4350 5125 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	16350 8975 16350 8500
-Wire Wire Line
-	16350 8500 16700 8500
-Wire Wire Line
 	6350 5950 9350 5950
-Connection ~ 9750 8100
-Wire Wire Line
-	9750 6250 9750 8100
 Wire Wire Line
 	10350 8100 10350 7750
 Wire Wire Line
 	10350 7750 10750 7750
 Wire Wire Line
 	10750 6250 10750 7750
-Connection ~ 10350 8100
 Wire Wire Line
 	11350 5950 13350 5950
-Wire Wire Line
-	9850 6600 9850 8450
 Connection ~ 9850 6600
-Connection ~ 9850 8450
 Wire Wire Line
 	12850 6600 12850 9325
 Connection ~ 12850 6600
@@ -4266,9 +4189,6 @@ Connection ~ 13850 6600
 Wire Wire Line
 	14850 6600 14850 9325
 Connection ~ 14850 6600
-Wire Wire Line
-	15850 6600 15850 9325
-Connection ~ 15850 6600
 Wire Wire Line
 	13350 6250 13750 6250
 Wire Wire Line
@@ -4283,7 +4203,14 @@ Wire Wire Line
 Wire Wire Line
 	15750 6250 15750 8500
 Wire Wire Line
-	16700 6250 16700 8500
-Wire Wire Line
 	4300 8750 4300 9075
+Connection ~ 8850 6600
+Wire Wire Line
+	9750 6250 9750 8975
+Wire Wire Line
+	9850 6600 9850 9425
+Wire Wire Line
+	8850 6600 8850 9425
+Wire Wire Line
+	5850 6600 5850 9425
 $EndSCHEMATC
